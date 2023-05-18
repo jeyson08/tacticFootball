@@ -1,0 +1,255 @@
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.terrain {
+  width: 800px;
+  height: 400px;
+  background-color: green;
+  position: relative;
+  margin: 50px auto;
+  border: solid white 2px;
+}
+
+.butgauche {
+  width: 20px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 145px;
+  left: -22px;
+  border: solid black 1px;
+  border-right: none;
+}
+
+.butdroite {
+  width: 20px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 145px;
+  left: 800px;
+  border: solid black 1px;
+  border-left: none;
+}
+
+.surface-reparation-gauche {
+  width: 90px;
+  height: 220px;
+  position: absolute;
+  top: 90px;
+  border: 2px solid white;
+  left: -2px;
+}
+
+.surface-reparation-droite {
+    width: 90px;
+    height: 220px;
+    position: absolute;
+    top: 90px;
+    border: 2px solid white;
+    left: 0;
+    left: 708px;
+  }
+
+.lignes {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ligne-centrale {
+  width: 2px;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.cercle-centre {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  left: -50px;
+}
+
+.ballon {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    top : 190px;
+    left : 390px;
+    border: solid black 2px;
+}
+
+.joueur {
+    cursor : grab;
+}
+
+.domicile-gardien {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 100px;
+    position: absolute;
+    top : 180px;
+    left: 30px;
+    border: solid black 2px;
+}
+
+.exterieur-gardien {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    top : 180px;
+    left: 750px;
+    border: solid black 2px;
+}
+
+.domicile-joueur {
+    width: 20px;
+    height: 20px;
+    background-color: skyblue;
+    border-radius: 100px;
+    border: solid white 2px;
+}
+
+.exterieur-joueur {
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    border-radius: 100px;
+    border: solid black 2px;
+}
+
+.domicile-joueur.un {
+    position: absolute;
+    top : 80px;
+    left: 100px;
+}
+
+.domicile-joueur.deux {
+    position: absolute;
+    top : 160px;
+    left: 100px;
+}
+
+.domicile-joueur.trois {
+    position: absolute;
+    top : 240px;
+    left: 100px;
+}
+
+.domicile-joueur.quatre {
+    position: absolute;
+    top : 320px;
+    left: 100px;
+}
+
+.domicile-joueur.cinq {
+    position: absolute;
+    top : 80px;
+    left: 200px;
+}
+
+.domicile-joueur.six {
+    position: absolute;
+    top : 160px;
+    left: 200px;
+}
+
+.domicile-joueur.sept {
+    position: absolute;
+    top : 240px;
+    left: 200px;
+}
+
+.domicile-joueur.huit {
+    position: absolute;
+    top : 320px;
+    left: 200px;
+}
+
+.domicile-joueur.neuf {
+    position: absolute;
+    top : 160px;
+    left: 300px;
+}
+
+.domicile-joueur.dix {
+    position: absolute;
+    top : 240px;
+    left: 300px;
+}
+
+.exterieur-joueur.un {
+    position: absolute;
+    top : 80px;
+    left: 650px;
+}
+
+.exterieur-joueur.deux {
+    position: absolute;
+    top : 160px;
+    left: 650px;
+}
+
+.exterieur-joueur.trois {
+    position: absolute;
+    top : 240px;
+    left: 650px;
+}
+
+.exterieur-joueur.quatre {
+    position: absolute;
+    top : 320px;
+    left: 650px;
+}
+
+.exterieur-joueur.cinq {
+    position: absolute;
+    top : 80px;
+    left: 550px;
+}
+
+.exterieur-joueur.six {
+    position: absolute;
+    top : 160px;
+    left: 550px;
+}
+
+.exterieur-joueur.sept {
+    position: absolute;
+    top : 240px;
+    left: 550px;
+}
+
+.exterieur-joueur.huit {
+    position: absolute;
+    top : 320px;
+    left: 550px;
+}
+
+.exterieur-joueur.neuf {
+    position: absolute;
+    top : 160px;
+    left: 450px;
+}
+
+.exterieur-joueur.dix {
+    position: absolute;
+    top : 240px;
+    left: 450px;
+}
